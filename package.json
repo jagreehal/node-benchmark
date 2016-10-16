@@ -1,8 +1,7 @@
 {
   "name": "node-benchmark",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Attempt to compare running node with babel and typescript",
   "scripts": {
     "start:babel": "babel-node src/babel-node/index.js babel",
     "start:babel-flow": "babel-node src/babel-node/index.js babel-flow",
@@ -11,7 +10,7 @@
     "start:vanilla": "node src/vanilla/index.js vanilla",
     "start": "npm run start:vanilla && npm run start:babel && npm run start:babel-flow && npm run start:ts && npm run start:tsf"
   },
-  "author": "",
+  "author": "Jag Reehal",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
